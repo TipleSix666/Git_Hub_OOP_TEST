@@ -15,5 +15,10 @@ namespace Git_Hub_OOP_TEST
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Ваш возраст {int.Parse(textBox1.Text) - int.Parse(textBox2.Text)}");
+        }
     }
 }
