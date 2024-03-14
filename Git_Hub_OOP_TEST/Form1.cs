@@ -18,7 +18,7 @@ namespace Git_Hub_OOP_TEST
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Ваш возраст {int.Parse(textBox1.Text) - int.Parse(textBox2.Text)}");
+            MessageBox.Show($"Your age: {int.Parse(textBox1.Text) - int.Parse(textBox2.Text)}");
         }
     }
 }
